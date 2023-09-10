@@ -190,33 +190,67 @@ void insert_pos_after(){
 		temp->next = newnode;
 	}
 }
-void insert_pos_before()
+void insert_after_value()
 {
 	struct node *newnode, *temp;
-	int pos, i;
+	int Searchdata, data, i;
 	newnode = (struct node *)malloc(sizeof(struct node));
-	printf("Enter the pos for the new node:\n");
-	scanf("%d", &pos);
-	printf("Enter the data:\n");
-	scanf("%d", &newnode->data);
-	newnode->next = 0;
-	if (pos == 0)
+	printf("Enter the Value after which you want to add node:\n");
+	scanf("%d", &Searchdata);
+	if (head == NULL)
 	{
-		newnode->next = head;
-		head = newnode;
+		printf("\nList does not contain any data !\n");
+	}
+	newnode = head;
+	while (newnode != NULL)
+	{
+		if (newnode->data == Searchdata)
+		{
+			break;
+		}
+		newnode = newnode->next;
+	}
+	if (newnode == NULL)
+	{
+		printf("\nList does not contain given value !\n");
 	}
 	else
 	{
-		temp = head;
-		for (i = 1; i < pos - 1; i++)
-		{
-			temp = temp->next;
-		}
-		newnode->next = temp->next;
-		temp->next = newnode;
+		printf("\nEnter data : ");
+		scanf("%d", &data);
+		temp->next = newnode->next;
+		newnode->next = temp;
 	}
 }
-void insert_after_value(){
+
+
+	void insert_pos_before()
+	{
+		struct node *newnode, *temp;
+		int pos, i;
+		newnode = (struct node *)malloc(sizeof(struct node));
+		printf("Enter the pos for the new node:\n");
+		scanf("%d", &pos);
+		printf("Enter the data:\n");
+		scanf("%d", &newnode->data);
+		newnode->next = 0;
+		if (pos == 0)
+		{
+			newnode->next = head;
+			head = newnode;
+		}
+		else
+		{
+			temp = head;
+			for (i = 1; i < pos - 1; i++)
+			{
+				temp = temp->next;
+			}
+			newnode->next = temp->next;
+			temp->next = newnode;
+		}
+	}
+
 	// Given a node prev_node, insert a new
 	// node after the given prev_node
 // 	void insertAfter(Node * prev_node, int new_data)
@@ -243,7 +277,7 @@ void insert_after_value(){
 // 		// as new_node
 // 		prev_node->next = new_node;
 // 	}
- }
+ 
  void insert_before_value(){
     
  }
