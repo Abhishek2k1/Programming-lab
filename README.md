@@ -56,3 +56,37 @@ Write 4 program in C to implement the following data structure and it's operatio
 7. A boolean function to return true if two queues are equal.
 8. Write a program for dynamic implementation (using link list) of a queues (n queues).
 9. Implement a priority queue using linked list (any type).
+
+
+### ASSIGNMENT – 4
+#### List of programs and operations -
+1. Write a menu-driven program to implement the following searching techniques using an array (a) Linear or sequential search (b) Binary search
+2. Write a menu-driven program to implement the following sorting techniques using an array
+(a) Bubble sort (b) Insertion sort (c) Selection sort
+3. Write a menu-driven program to implement the following sorting techniques using a single linked list (interchanging data)
+(a) Bubble sort (b) Insertion sort (c) Selection sort
+4. Write a menu-driven program to implement the following sorting techniques using a single linked list (interchanging links)
+(a) Bubble sort (b) Insertion sort (c) Selection sort
+5. Write a menu-driven program to implement the following sorting techniques using an array (recursive functions)
+(a) Quick sort (b) Merge sort
+
+
+### Assignment-5
+#### List of programs and operations -
+1. Write a menu-driven program for a binary tree using
+linked representation to
+(a)Create (b) Preorder traversal (c) Inorder traversal (d)
+Postorder traversal
+2. Write a menu-driven program for a binary tree using
+an array to
+(a)Create (b) Preorder traversal (c) Inorder traversal (d)
+Postorder traversal
+3. Implement a threaded binary tree (inorder)
+4. Write a menu-driven program for a binary search tree
+to
+(a)Create (b) search an element (c) insert element (d)
+delete an element
+5. Write a menu-driven program to implement an AVL
+tree through functions
+(a)Create (b) search an element (c) insert element (d)
+delete an element
