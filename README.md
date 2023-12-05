@@ -90,3 +90,8 @@ delete an element
 tree through functions
 (a)Create (b) search an element (c) insert element (d)
 delete an element
+
+### Assignment-6
+Given Date: **2023-12-11**
+#### List of programs and operations -
+1. DFS & BFS in a graph stored in an adjacency matrix
