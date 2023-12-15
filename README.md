@@ -94,4 +94,14 @@ delete an element
 ### Assignment-6
 Given Date: **2023-12-11**
 #### List of programs and operations -
-1. DFS & BFS in a graph stored in an adjacency matrix
+1. Write a function void addVertex(int n) that adds a vertex with name n to the graph. If there is already a vertex with name n, then the function should do nothing. Otherwise the new vertex should be made the last vertex in the vertex list of the graph.
+2. Write a function void addEdge(int u, int v) that does the following. The function should add a new edge from the vertex with name u to vertex with name v to the graph. If there is no vertex named u or no vertex named v, then the function should do nothing. If there is already an edge between u and v, the function should not do anything.
+3. Write a function void delEdge(int u, int v) that does the following. The function should remove the edge from vertex with name u to vertex with name v from the graph. If there is no such edge in the graph, then the function should do nothing.
+4. Write a function void delVertex(int u) that does the following. The function should remove the vertex named u and all edges that either come into u or go out of u. If there is no vertex with name u, then the function should do nothing.
+5. Write a program to find approachable nodes from a given source of a given graph using queue as an intermediate data structure (BFS).
+6. Write a program to traverse various nodes of a given graph using stack as an intermediate data structure (DFS).
+7. Write a program to find shortest path from a given source to all the approachable nodes (Single source shortest path Dijkstra’s algorithm).
+8. Write a program to find shortest path between all the source destination pairs (All pairs shortest path Floyd’s algorithm.
+9. Write a program to arrange all the nodes of a given graph (Topological sort).
+10. Write a program to find Minimal spanning tree of a graph using Kruskal’s algorithm.
+11. Write a program to find Minimal spanning tree of a graph using Prim’s algorithm.
